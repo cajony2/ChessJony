@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChessPVP</string>
+    <string name="action_settings">Settings</string>
+    <string name="chesspvp">ChessPVP</string>
+    <string name="login">Login</string>
+    <string name="game_on">GameOn</string>
+    <color name="red">#ffff0000</color>
+    <color name="myColor">#ffffffff</color>
+</resources>

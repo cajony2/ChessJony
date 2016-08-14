@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    xmlns:androis="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:gravity="top"
+        tools:context="none.chesspvp.GameOn" android:id="@+id/boardLayout"
+        android:orientation="vertical">
+        <GridView
+            tools:context="none.chesspvp.GameOn" android:id="@+id/chessboard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:numColumns="8"
+            android:stretchMode="columnWidth"
+            android:focusable="true"
+            android:clickable="true">
+        </GridView>
+    </RelativeLayout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:gravity = "bottom"
+        android:layout_alignParentBottom="true"
+        tools:context="none.chesspvp.GameOn" android:id="@+id/bottomLayout"
+        android:orientation="vertical" android:layout_below="@id/boardLayout">
+        <Button android:layout_width="100dp" android:layout_height="60dp"
+        android:text="Confirm" android:layout_alignParentTop="true" android:textColor="@color/green"
+        android:layout_alignParentRight="true" android:layout_marginBottom="200dp"/>
+
+        <Button android:layout_width="100dp" android:layout_height="60dp" android:textSize="20sp"
+                android:text="Back" android:layout_alignParentTop="true" android:textColor="@color/darkRed"
+                android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>
+
+

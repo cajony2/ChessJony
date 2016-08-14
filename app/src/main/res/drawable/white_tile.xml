@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+<!--<corners android:radius="1dp" />-->
+
+    <!--<added this/>-->
+    <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+            android:src="@drawable/white_wooden"
+            android:tileMode="repeat" />
+</shape>
