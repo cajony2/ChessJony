@@ -13,8 +13,13 @@ import android.service.quicksettings.Tile;
 public class Bishop extends ChessPiece {   //extends View
 
 	//constructor
-	public  Bishop(Context context, int color, Point position){
+	/*public  Bishop(Context context, int color, none.chesspvp.Tile position){
 		super(context, color, position);
+	}*/
+
+	//constructor
+	public  Bishop(Context context, int color, none.chesspvp.Tile tile){
+		super(context, color, tile);
 	}
 
 	public  Bishop(Context context, int color){

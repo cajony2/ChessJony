@@ -15,8 +15,13 @@ import none.chesspvp.ChessPiece;
 public class Pawn extends ChessPiece {
 
 	//constructor
-	public  Pawn(Context context, int color, Point point){
+	/*public  Pawn(Context context, int color, none.chesspvp.Tile point){
 		super(context, color, point);
+	}*/
+
+	//constructor
+	public  Pawn(Context context, int color, none.chesspvp.Tile tile){
+		super(context, color, tile);
 	}
 
 	@Override

@@ -12,6 +12,7 @@ import java.util.ArrayList;
  */
 public abstract class Board extends BaseAdapter{
 
+	protected Tile[][] tiles;
 	protected ArrayList<Tile> _tiles;
 	protected Context _context;
 

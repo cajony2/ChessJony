@@ -15,8 +15,13 @@ import none.chesspvp.ChessPiece;
 public class Rook extends ChessPiece {
 
 	//constructor
-	public  Rook(Context context, int color, Point position){
+	/*public  Rook(Context context, int color, none.chesspvp.Tile position){
 		super(context, color, position);
+	}*/
+
+	//constructor
+	public  Rook(Context context, int color, none.chesspvp.Tile tile){
+		super(context, color, tile);
 	}
 
 	@Override

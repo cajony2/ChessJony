@@ -15,8 +15,13 @@ import none.chesspvp.ChessPiece;
 public class King extends ChessPiece {
 
 	//constructor
-	public  King(Context context, int color, Point point){
+	/*public  King(Context context, int color, none.chesspvp.Tile point){
 		super(context, color, point);
+	}*/
+
+	//constructor
+	public  King(Context context, int color, none.chesspvp.Tile tile){
+		super(context, color, tile);
 	}
 
 	@Override

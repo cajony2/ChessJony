@@ -56,7 +56,7 @@ public abstract class Tile extends FrameLayout {
 		public BlackTile(Context context, Point position){
 			super(context, position);
 			_color = Color.BLACK;
-			this.setBackgroundResource(R.drawable.black_wooden_tile);
+			this.setBackgroundResource(R.drawable.black_tile);
 
 		}
 	}
